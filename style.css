@@ -1,0 +1,122 @@
+body{
+    background-color: black ;
+    margin: 0;
+    font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+    
+header{
+    background-color: red;
+    width: 100%;
+    display: flex;
+}
+    
+.header{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+    
+nav{        
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+    
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+    margin: 10px 5px;
+}
+    
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+    
+nav a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+    color: black;
+}
+    
+h1{
+    color: white;
+    margin-left: 15%;
+}
+    
+h2{
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ 
+.fases{
+    color: white;
+    
+}
+
+.fases p{
+    font-size: 22px;
+    /*margin-left: 18%;*/
+}
+
+.lacamento{
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid 1px;
+    width: 50%;
+    border-spacing: 1px;
+}
+    
+td{
+    border: solid 25px black;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.info h2{
+    float: inline-end;
+}
+
+.botao a{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 6px;
+    position: relative;
+    color: red;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.botao a:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.fl div{
+    float: left;
+    width: 28%;
+    margin-left: 17%;
+}
+
+.sagas p{
+    color: white;
+    margin-left: 18%;
+    font-size: 25px;
+}
+
+.lmto div{
+    float: left;
+    width: 29%;
+    font-size: 12px;
+}
+
+.margem {
+    padding-left: 11%;
+}
