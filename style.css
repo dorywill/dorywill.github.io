@@ -134,7 +134,7 @@ td{
 }
 
 .lmto div{
-    float: left;
+    display: inline-flexbox;
     width: 29%;
     font-size: 12px;
 }
