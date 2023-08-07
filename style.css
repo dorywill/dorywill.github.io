@@ -100,8 +100,6 @@ td{
 }
 
 .botao2{
-    /*display: inline;*/
-    margin-left:  16%;
     display: flex;
     justify-content: space-evenly;
 }
