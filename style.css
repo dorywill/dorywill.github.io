@@ -100,7 +100,7 @@ td{
 }
 
 .botao2{
-    float: inline-end;
+    display: inline;
     margin-left:  16%;
 }
 
