@@ -106,7 +106,7 @@ td{
 }
 
 .botao2 a{
-    background-color: black;
+    background-color: white;
     color: red;
     border: 2px red;
     text-decoration: none;
@@ -116,6 +116,8 @@ td{
 .botao2 a:hover{
     background-color: red;
     color: white;
+    font-weight: bold; 
+    text-decoration: none;
 }
 
 .fl div{
