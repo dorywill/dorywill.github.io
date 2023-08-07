@@ -12,6 +12,7 @@ header{
     
 .tudo{
     margin-right: 15%;
+    margin-left: 15%;
 }
 
 .header{
@@ -48,7 +49,6 @@ nav a:hover{
     
 h1{
     color: white;
-    margin-left: 15%;
 }
     
 h2{
