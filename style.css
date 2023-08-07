@@ -100,9 +100,8 @@ td{
 }
 
 .botao2{
-    display: flex;
+    display: inline;
     justify-content: space-evenly;
-    padding-left: 0%;
 }
 
 .botao2 a{
