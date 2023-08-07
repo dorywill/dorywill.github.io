@@ -108,7 +108,7 @@ td{
 .botao2 a{
     background-color: white;
     color: red;
-    border: 5px red;
+    border:  5px solid red;
     text-decoration: none;
     padding: 32px 16px;
 }
