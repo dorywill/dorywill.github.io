@@ -99,6 +99,10 @@ td{
     text-decoration: none;
 }
 
+.botao2{
+    float: left;
+}
+
 .fl div{
     float: left;
     width: 28%;
