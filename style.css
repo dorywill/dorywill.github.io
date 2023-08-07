@@ -102,7 +102,7 @@ td{
 .botao2{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 0%;
+    padding-left: 0%;
 }
 
 .botao2 a{
