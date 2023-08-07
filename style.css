@@ -102,8 +102,13 @@ td{
 .botao2{
     float: left;
     width: 25%;
-    margin-left: 16%;
-    font-size: 22px;
+    margin-left:  30%;
+}
+
+.botao2 a{
+    background-color: black;
+    color: red;
+     border: 2px 
 }
 
 .fl div{
