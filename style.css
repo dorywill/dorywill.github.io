@@ -99,7 +99,7 @@ td{
     text-decoration: none;
 }
 
-.botao2{
+.botao2 a{
     display: inline;
     justify-content: space-evenly;
 }
