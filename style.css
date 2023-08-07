@@ -101,12 +101,11 @@ td{
 
 .botao2{
     float: left;
-    width: 33%;
     margin-left:  16%;
 }
 
 .botao2 a{
-    background-color: white;
+    background-color: black;
     color: red;
     border:  5px solid red;
     text-decoration: none;
