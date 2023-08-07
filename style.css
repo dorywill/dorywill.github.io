@@ -48,13 +48,11 @@ nav a:hover{
     
 h1{
     color: white;
-    margin-left: 15%;
 }
     
 h2{
     color: white;
     margin-left: 15%;
-    margin-right: 15%;
 }
  
 .fases{
@@ -69,7 +67,6 @@ h2{
 
 .lacamento{
     margin-left: 15%;
-    margin-right: 15%;
     border: solid 1px;
     width: 50%;
     border-spacing: 1px;
