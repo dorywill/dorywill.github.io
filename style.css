@@ -2,14 +2,12 @@ body{
     background-color: black ;
     margin: 0;
     font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
-    margin-right: 16%;
 }
     
 header{
     background-color: red;
     width: 100%;
     display: flex;
-    margin-right: 0;
 }
     
 .header{
@@ -72,7 +70,7 @@ h2{
     width: 50%;
     border-spacing: 1px;
 }
-    
+
 td{
     border: solid 25px black;
     padding-bottom: 10px;
