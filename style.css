@@ -112,6 +112,11 @@ td{
     text-decoration: none;
 }
 
+.botao2 a:hover{
+    background-color: red;
+    color: white;
+}
+
 .fl div{
     float: left;
     width: 28%;
