@@ -110,6 +110,7 @@ td{
     color: red;
     border: 2px red;
     text-decoration: none;
+    padding: 32px 16px;
 }
 
 .botao2 a:hover{
