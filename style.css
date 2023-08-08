@@ -7,9 +7,9 @@ body{
 header{
     background-color: red;
     display: flex;
+    align-content: center;
+    justify-content: space-between;
     position: relative;
-    width: 100%;
-    margin: 0px auto;
 }
     
 .tudo{
@@ -121,21 +121,49 @@ td{
 .fl div{
     float: left;
     width: 28%;
-    margin-left: 17%;
 }
 
 .sagas p{
     color: white;
-    margin-left: 18%;
     font-size: 25px;
 }
 
 .lmto div{
-    float: left;
     width: 29%;
     font-size: 12px;
 }
 
-.margem {
-    padding-left: 10%;
+header input {
+    display: none;
+}
+
+table tr td img {
+    width: 18vw;
+}
+
+@media (max-width: 880px) {
+    table tr td img {
+        width: 16vw;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header input {
+        display: grid;
+        place-self: center;
+        width: 64px;
+        height: 64px;
+    }
+
+    .botao2 a{
+        padding: 8px 4px;
+    }
+
+    .botao2 {
+        width: 40%;
+        margin: auto;
+        gap: 20px;
+    }
 }
