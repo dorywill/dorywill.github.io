@@ -69,11 +69,12 @@ h2{
     border: solid 1px;
     width: 40%;
     border-spacing: 1px;
-    margin-left: 10%;
+    display: grid;
+    place-self: center;
 }
 
 td{
-    border: solid 20px black;
+    padding: 20px;
     padding-bottom: 10px;
     color: white;
     text-align: center;
