@@ -69,11 +69,10 @@ h2{
     border: solid 1px;
     width: 40%;
     border-spacing: 1px;
-    margin-right: 16%;
 }
 
 td{
-    border: solid 20px white;
+    border: solid 20px black;
     padding-bottom: 10px;
     color: white;
     text-align: center;
