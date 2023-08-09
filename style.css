@@ -12,6 +12,12 @@ header{
     position: relative;
 }
     
+p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: start;
+    font-weight: bold;
+}
 .tudo{
     display: grid;
     place-content: center;
@@ -166,4 +172,14 @@ table tr td img {
         margin: auto;
         gap: 20px;
     }
+}
+
+.all-fases{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fases {
+    margin: 5px;
+    width: 100%;	
 }
