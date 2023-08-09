@@ -147,6 +147,15 @@ table tr td img {
     width: 18vw;
 }
 
+.all-fases{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fases {
+    margin: 5px;
+    width: 100%;	
+}
 @media (max-width: 880px) {
     table tr td img {
         width: 16vw;
@@ -172,14 +181,9 @@ table tr td img {
         margin: auto;
         gap: 20px;
     }
-}
-
-.all-fases{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.fases {
-    margin: 5px;
-    width: 100%;	
+    .all-fases{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
