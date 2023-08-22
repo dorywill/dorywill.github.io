@@ -191,5 +191,6 @@ table tr td img {
 .crono{
     display: table;
     color: white;
-    background-color: rgb(31, 31, 31);
+    border: 1px solid red;
+    padding: 10px;
 }
