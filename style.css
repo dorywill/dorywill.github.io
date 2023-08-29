@@ -194,3 +194,15 @@ table tr td img {
     border: 1px solid red;
     padding: 0.5vw;
 }
+
+.form{
+    color: white;
+    text-align: center;
+    padding-top: 3vw;
+}
+input, textarea{
+    border: none;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}

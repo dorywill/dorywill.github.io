@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Avengers-logo.png" type="image/gif">
+    <title>UCM - Contato </title>
+    <meta name="description"
+        content="Informações sobre os filmes e séries do universo cinematigráfico da marvel em um só lugar.">
+    <meta name="keywords" content="marvel, filmes, séries, vingadores, herói, avengers">
+    <meta name="author" content="dory">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/marvel-logo.png" alt="Logo Marvel" width="100">
+        </div>
+        <nav>
+            <input type="checkbox" name="" id="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cronologica.html">Ordem Cronológica</a></li>
+                <li><a href="lancamento.html">Ordem de lançamento</a></li>
+                <li><a href="sagas.html">Sagas</a></li>
+                <li><a href="fases.html">Fases</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <div class="form">
+
+            Nome*: <input type="text" name="nome" autofocus required autocomplete="off" size="50"> <br> <br>
+
+            Email: <input type="email" name="email" placeholder="ex: seuemail@dominio.com" autocomplete="off" size="40"> <br> <br>
+
+            <script>
+                const handlePhone = (event) => {
+                    let input = event.target
+                    input.value = phoneMask(input.value)
+                }
+              
+              const phoneMask = (value) => {
+                if (!value) return ""
+                value = value.replace(/\D/g,'')
+                value = value.replace(/(\d{2})(\d)/,"($1) $2")
+                value = value.replace(/(\d)(\d{4})$/,"$1-$2")
+                return value
+              }
+            </script>
+
+            Telefone <input type="tel" onkeyup="handlePhone(event)" placeholder="(xx) xxxxx-xxxx"><br><br>
+
+            Dúvidas / Críticas / Sugestões*: <br>
+            <textarea cols="65" rows="5" required></textarea>
+            <br><br>
+
+            <input type="reset" name="limpar" value="Limpar">
+            <input type="submit" name="enviar" value="Enviar">
+
+        </div>
+    </form>   
+</body>
+
+</html>
